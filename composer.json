@@ -1,10 +1,12 @@
 {
-    "name": "laravel/laravel",
+    "name": "ipitchkhadze/laravuety",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "The Laravel Framework Vuetify.",
     "keywords": [
         "framework",
-        "laravel"
+        "laravel",
+        "vuetify",
+        "Hmr"
     ],
     "license": "MIT",
     "require": {
@@ -45,7 +47,7 @@
             "Tests\\": "tests/"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "scripts": {
         "post-autoload-dump": [
